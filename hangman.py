@@ -156,5 +156,12 @@ oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
         print('The word was:', word)
 
 
-main()
+while True:
+    main()
+    ans = input('\nEnter "1" if you would like to play again, if not press anything else: ')
+    if ans == '1':
+        continue
+    else:
+        break
+print('\nThank you for playing!')
 input()
