@@ -61,6 +61,7 @@ def drawing(counter):
     return draw[counter]
 
 
+
 def check(lst):
     for i in lst:
         if i == '_':
