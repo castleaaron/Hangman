@@ -8,7 +8,6 @@ all_words = ["Turtle"," Garfield"," alligator"," headphones"," wedding dress"," 
 
 def drawing(counter):
     draw = ['''
-
   +---+
   |   |
       |
